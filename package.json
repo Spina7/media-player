@@ -4,12 +4,16 @@
   "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "parcel index.html"
   },
   "keywords": [],
   "author": "Sergio Piña <alonzopina7@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "live-server": "^1.2.1"
-  }
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.2.4"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
 }
